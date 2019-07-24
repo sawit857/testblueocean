@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Initial') {
+    stage('Build') {
       steps {
-        echo 'Initial'
+        echo 'Jenkins Minute Pipe'
       }
     }
   }
